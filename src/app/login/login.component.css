@@ -76,6 +76,12 @@
   border-color: #05a;
 }
 
+.help-block{
+  color: red;
+  font-size: small;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .has-error input[type="email"],
 .has-error input[type="password"] {
     border-color: rgb(216, 12, 12);
