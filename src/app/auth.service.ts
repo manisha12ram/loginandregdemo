@@ -9,7 +9,7 @@ export class AuthService {
   constructor() { }
 
   public login(userInfo: User){
-    localStorage.setItem('ACCESS_TOKEN', "access_token");
+    localStorage.setItem('ACCESS_TOKEN', JSON.stringify(userInfo));
   }
 
   public isLoggedIn(){
